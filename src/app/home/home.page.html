@@ -1,0 +1,21 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>
+      Home
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <ion-card class="welcome-card">
+      <ion-img src="/assets/download.png"></ion-img>
+      <ion-card-header>
+        <ion-card-subtitle>Pós Graduação Alfa</ion-card-subtitle>
+        <ion-card-title>IONIC</ion-card-title>
+      </ion-card-header>
+    </ion-card>
+    <ion-button color="primary" (click)="btClicou()" >{{btNome}}</ion-button>
+</ion-content>

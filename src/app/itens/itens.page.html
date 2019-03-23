@@ -1,0 +1,45 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>
+      Itens
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-header>
+  <ion-toolbar>
+    <ion-title>itens</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-icon name="cart"></ion-icon>
+  <!-- Default Item -->
+<ion-item>
+  <ion-label>
+    Item
+  </ion-label>
+</ion-item>
+
+<!-- Item as a Button -->
+<ion-item onclick="buttonClick()">
+  <ion-label>
+      <ion-button color="warning" expand="block" size="large" (click)="btAcao()">{{btBotao}}</ion-button>
+  </ion-label>
+</ion-item>
+
+<!-- Item as an Anchor -->
+<ion-item href="https://www.ionicframework.com">
+  <ion-label>
+    Anchor Item
+  </ion-label>
+</ion-item>
+
+<ion-item color="secondary">
+  <ion-label>
+    Secondary Color Item
+  </ion-label>
+</ion-item>
+</ion-content>
